@@ -16,7 +16,7 @@ $(document).on("pagecreate","#pageone",function(){
   	});   
 
 	$('#taptext').on("tap",function(){
-    	$.mobile.navigate("pagetwo");
+    	$.mobile.navigate("#pagetwo");
   	});
 
 });
