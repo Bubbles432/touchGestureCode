@@ -15,5 +15,8 @@ $(document).on("pagecreate","#pageone",function(){
     	$(this).css('color', 'green');
   	});   
 
+	$('#taptext').on("swipeleft",function(){
+    	$.mobile.navigate("pagetwo");
+  	});
 
 });
